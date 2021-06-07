@@ -23,4 +23,3 @@ Esse projeto visa fornecer uma estratégia leve para a descrição de LPSs, cuja
 1. Ref
 2. Ref
 3. Ref
-4. 
