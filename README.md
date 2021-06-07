@@ -1,5 +1,12 @@
 ## Linguagem para Descrição de LPSs
-*Thayonara Pontes (tpa) e Reydne Bruno (rbs8)*
+
+Repositório do projeto da disciplina Paradigmas de Linguagens de Programação (in1007) da pós-graduação em Ciência da Computação da UFPE, ministrada pelo Prof.Dr. Augusto Sampaio em 2021.1.
+
+## Equipe
+- Thayonara Pontes (tpa@cin.ufpe.br) 
+- Reydne Bruno (rbs8@cin.ufpe.br)
+
+## Introdução
 
 Linha de Produtos de Software (LPS) consiste em um conjunto de sistemas de software que compartilham de funcionalidades em comum, mas que diferem uma das outras. Para isso, se é pensado em componentes já existentes no portfólio ou que ainda serão produzidos, mas que possam fazer parte do conjunto de componentes comuns reutilizáveis por todos os sistemas que são membros da mesma família. A partir do momento em que se deseja criar um outro produto, usam-se os componentes comuns à família e insere, se necessário, outras funcionalidades a fim de atender as necessidades de um determinado segmento de mercado. Assim, o novo produto é construído com menos esforço uma vez que ele faz parte de uma LPS.
 
