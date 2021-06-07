@@ -1,6 +1,6 @@
 ## Linguagem para Descrição de LPSs
 
-Repositório do projeto da disciplina Paradigmas de Linguagens de Programação (in1007) da pós-graduação em Ciência da Computação da UFPE, ministrada pelo Prof.Dr. Augusto Sampaio em 2021.1.
+Repositório do projeto da disciplina Paradigmas de Linguagens de Programação [in1007!](https://www.cin.ufpe.br/~in1007/) da pós-graduação em Ciência da Computação da UFPE, ministrada pelo Prof.Dr. Augusto Sampaio em 2021.1.
 
 ## Equipe
 - Thayonara Pontes (tpa@cin.ufpe.br) 
