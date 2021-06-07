@@ -1,6 +1,3 @@
-*Paradigmas de Linguagens de Programação - Centro de Informática - UFPE*
-
-
 ## Linguagem para Descrição de LPSs
 *Thayonara Pontes (tpa) e Reydne Bruno (rbs8)*
 
