@@ -33,7 +33,7 @@ Product nome_produto (fn1,fn2…,fn);
 }
 ```
 
-- Exemplo (incompleto) LPS Mobile Media
+- Exemplo (incompleto) LPS Mobile Media:
 ```
 PL MobileMedia{
 FeatureName MobileMedia as ROOT;
