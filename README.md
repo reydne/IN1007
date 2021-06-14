@@ -23,6 +23,15 @@ Trabalhos anteriores [Cohen et al, 1997; Kuhn et al, 2004] identificaram o teste
 
 Esse projeto visa fornecer uma estratégia leve para a descrição de LPSs, cujas semelhanças e variabilidades entre os produtos de uma família são modeladas em termos de features. Uma vez que temos essa representação, podemos usar modelos de features como um artefato relevante para gerar suítes de configuração de teste para LPSs, por meio de técnicas de CIT. É importante destacar que, nesse ponto, nos concentramos no problema de gerar casos de teste abstratos e não em executá-los.
 
+## Possível representação de uma SPL
+
+```PL nome_PL{
+FeatureName nome_fn [extends fn_pai] as tipo_feature;
+Formula nome_fm (fn1 operador fn2);
+Product nome_produto (fn1,fn2…,fn);
+}
+```
+
 ## BNF
 
 ## Referências
