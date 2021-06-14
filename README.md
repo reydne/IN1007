@@ -63,7 +63,7 @@ FormulaBinaria ::= Formula “and” Formula
 		      | Formula “or” Formula
           
           
-DeclaracaoProduto ::= “Product” Id “(“ (Id) [”,” Id]* “);”
+DeclaracaoProduto ::= “Product” Id “=” “{“ (Id) [”,” Id]* “};”
 ```
 
 ## Referências
