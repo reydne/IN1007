@@ -33,10 +33,46 @@ Product nome_produto (fn1,fn2…,fn);
 }
 ```
 
+### Exemplo (incompleto) LPS Mobile Media
+```
+PL MobileMedia{
+FeatureName MobileMedia as ROOT;
+FeatureName Media extends MobileMedia as MANDATORY;
+			                       [...]
+Formula f1  = sendPhoto implies Photo;
+Product p1 = {MobileMedia, Media, SendPhoto, Photo} ;
+} 
+```
+
 ## BNF
+```
+Programa ::= DeclaracaoPL
+DeclaracaoPL ::= “PL” Id CorpoPL
+CorpoPL ::= “{“ “}”
+	      | “{“ (DeclaracaoFN | DeclaracaoFormula | DeclaracaoProduto) + “}”
+DeclaracaoFN ::= “FeatureName” Id [”extends” Id] “as” 
+(ROOT| MANDATORY| OPTIONAL| ALTERNATIVE | OR) “;”
+
+```
+```
+DeclaracaoFormula ::= “Formula” Id “=” Formula
+Formula ::= FormulaUnaria | FormulaBinaria | Id
+FormulaUnaria ::= “not” Formula
+FormulaBinaria ::= Formula “and” Formula
+		      | Formula “implies” Formula
+		      | Formula “or” Formula
+          
+          
+DeclaracaoProduto ::= “Product” Id “(“ (Id) [”,” Id]* “);”
+```
 
 ## Referências
 
-1. Ref
-2. Ref
-3. Ref
+[Apel et al., 2013] Apel, S., Batory, D., Kastner, C., Saake, G. Feature-Oriented Software Product Lines: Concepts and Implementation. 1. ed. [S.l.]: Springer, 2013. 320 p.
+
+[Cohen et al., 1997] Cohen DM, Dalal SR, Fredman ML, Patton GC (1997) The AETG System: an approach to testing based on combinatorial design. IEEE Trans Softw Eng 23(7):437–444.
+
+[Kang et al., 1990] Kang, K., Cohen, S., Hess, J., Novak, W., and Peterson, S. (1990). Feature-oriented domain analysis (FODA) feasibility study. Technical Report CMU/SEI-90-TR-21, Software Engineering Institute, Carnegie Mellon University.
+
+[Kuhn et al., 2004] Kuhn DR, Wallace DR, Gallo AM (2004) Software fault interactions and implications for software testing. IEEE Trans Softw Eng 30(6):418–421.
+
