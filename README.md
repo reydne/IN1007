@@ -48,12 +48,12 @@ PL MobileMedia{
 
 Programa ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java)
 
-DeclaracaoPL ::= “PL” [Id](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Id.java) CorpoPL
+[DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java) ::= “PL” Id CorpoPL
 
 CorpoPL ::= “{“ “}”
 	      | “{“ ( [DeclaracaoFN](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java) | [DeclaracaoFormula](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Formula.java) | [DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java)) + “}”
 	      
-DeclaracaoFN ::= “FeatureName” Id [”extends” Id] “as” 
+[DeclaracaoFN](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java) ::= “FeatureName” Id [”extends” Id] “as” 
 
 (ROOT| MANDATORY| OPTIONAL| ALTERNATIVE | OR) “;”
 
@@ -63,9 +63,9 @@ DeclaracaoFN ::= “FeatureName” Id [”extends” Id] “as”
 
 Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/UnaryFormula.java) | [FormulaBinaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/BinaryFormula.java) | [Id](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Id.java)
 
-FormulaUnaria ::= [“not”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/NotForm.java) Formula
+[FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/UnaryFormula.java) ::= [“not”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/NotForm.java) Formula
 
-FormulaBinaria ::= Formula [“and”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/AndForm.java) Formula
+[FormulaBinaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/BinaryFormula.java) ::= Formula [“and”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/AndForm.java) Formula
 		      | Formula [“or”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/OrForm.java) Formula
 		      | Formula [“implies”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ImpliesForm.java) Formula
 		      
