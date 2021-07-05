@@ -27,20 +27,20 @@ Esse projeto visa fornecer uma estratégia leve para a descrição de LPSs, cuja
 
 ```
 PL nome_PL{
-FeatureName nome_fn [extends fn_pai] as tipo_feature;
-Formula nome_fm (fn1 operador fn2);
-Product nome_produto (fn1,fn2…,fn);
+	FeatureName nome_fn [extends fn_pai] as tipo_feature;
+	Formula nome_fm (fn1 operador fn2);
+	Product nome_produto (fn1,fn2…,fn);
 }
 ```
 
 - Exemplo (incompleto) LPS Mobile Media:
 ```
 PL MobileMedia{
-FeatureName MobileMedia as ROOT;
-FeatureName Media extends MobileMedia as MANDATORY;
-			                       [...]
-Formula f1  = sendPhoto implies Photo;
-Product p1 = {MobileMedia, Media, SendPhoto, Photo} ;
+	FeatureName MobileMedia as ROOT;
+	FeatureName Media extends MobileMedia as MANDATORY;
+						       [...]
+	Formula f1  = sendPhoto implies Photo;
+	Product p1 = {MobileMedia, Media, SendPhoto, Photo} ;
 } 
 ```
 
