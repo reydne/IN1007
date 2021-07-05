@@ -58,17 +58,21 @@ DeclaracaoFN ::= “FeatureName” Id [”extends” Id] “as”
 (ROOT| MANDATORY| OPTIONAL| ALTERNATIVE | OR) “;”
 
 
-```
-DeclaracaoFormula ::= “Formula” Id “=” Formula
-Formula ::= FormulaUnaria | FormulaBinaria | Id
-FormulaUnaria ::= “not” Formula
-FormulaBinaria ::= Formula “and” Formula
-		      | Formula “implies” Formula
-		      | Formula “or” Formula
+
+[DeclaracaoFormula](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FormDeclaration.java) ::= “Formula” [Id](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Formula.java) “=” Formula
+
+Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/UnaryFormula.java) | [FormulaBinaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/BinaryFormula.java) | [Id](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Id.java)
+
+FormulaUnaria ::= [“not”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/NotForm.java) Formula
+
+FormulaBinaria ::= Formula [“and”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/AndForm.java) Formula
+		      | Formula [“or”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/OrForm.java) Formula
+		      | Formula [“implies”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ImpliesForm.java) Formula
+		      
           
           
-DeclaracaoProduto ::= “Product” Id “=” “{“ (Id) [”,” Id]* “};”
-```
+[DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java) ::= “Product” Id “=” “{“ (Id) [”,” Id]* “};”
+
 
 ## Referências
 
