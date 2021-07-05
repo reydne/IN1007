@@ -56,7 +56,7 @@ DeclaracaoFN ::= “FeatureName” Id [”extends” Id] “as”
 ```
 ```
 DeclaracaoFormula ::= “Formula” Id “=” Formula
-Formula ::= FormulaUnaria | FormulaBinaria | Id
+Formula ::= [FormulaUnaria](https://www.cin.ufpe.br/~in1007/) | FormulaBinaria | Id
 FormulaUnaria ::= “not” Formula
 FormulaBinaria ::= Formula “and” Formula
 		      | Formula “implies” Formula
