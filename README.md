@@ -73,6 +73,7 @@ Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/ma
 | Formula [“implies”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ImpliesForm.java) Formula
 
 DeclaracaoProduto ::= “Product” id “(“ (id) <”,” id>* “);”
+
 Comando ::= OFOT 
 | SOFOT 
 | OA 
