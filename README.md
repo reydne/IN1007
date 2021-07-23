@@ -45,7 +45,7 @@ PL MobileMedia{
 ```
 
 ## BNF
-Programa ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java)
+Programa ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java)  “;”  | Comando “}”
 
 [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java) ::= “PL” Id CorpoPL
 
@@ -71,6 +71,19 @@ Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/ma
 [FormulaBinaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/BinaryFormula.java) ::= Formula [“and”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/AndForm.java) Formula 
 | Formula [“or”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/OrForm.java) Formula
 | Formula [“implies”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ImpliesForm.java) Formula
+
+DeclaracaoProduto ::= “Product” id “(“ (id) <”,” id>* “);”
+Comando ::= OFOT 
+| SOFOT 
+| OA 
+| PW 
+| TWAY 
+| AC 
+| EC 
+| Tamanho 
+| Cobertura 
+| DeveTestar
+
 		      
           
           
