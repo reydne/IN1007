@@ -72,7 +72,7 @@ Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/ma
 | Formula [“or”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/OrForm.java) Formula
 | Formula [“implies”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ImpliesForm.java) Formula
 
-DeclaracaoProduto ::= “Product” id “(“ (id) <”,” id>* “);”
+[DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java) ::= “Product” id “(“ (id) <”,” id>* “);”
 
 Comando ::= OFOT 
 | SOFOT 
@@ -86,10 +86,6 @@ Comando ::= OFOT
 | DeveTestar
 
 		      
-          
-          
-[DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java) ::= “Product” Id “=” “{“ (Id) [”,” Id]* “};”
-
 ## Referências
 
 [Apel et al., 2013] Apel, S., Batory, D., Kastner, C., Saake, G. Feature-Oriented Software Product Lines: Concepts and Implementation. 1. ed. [S.l.]: Springer, 2013. 320 p.
