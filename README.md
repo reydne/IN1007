@@ -45,7 +45,7 @@ PL MobileMedia{
 ```
 
 ## BNF
-Programa ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java)  “;”  | Comando “}”
+Programa ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java)  “;”  Comando “}”
 
 [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java) ::= “PL” Id CorpoPL
 
