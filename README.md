@@ -100,6 +100,7 @@ EC ::= “ec” id
 Tamanho ::= “size” Comando
 
 Cobertura ::= “coverage” Comando
+
 DeveTestar ::= “test” Comando Id
 
 		      
