@@ -85,6 +85,16 @@ Comando ::= OFOT
 | Cobertura 
 | DeveTestar
 
+OFOT ::= “ofot” id 
+SOFOT ::= “sofot” id 
+PW ::= “pw” id 
+TWAY ::= “tway” id
+AC ::= “ac” id
+EC ::= “ec” id
+Tamanho ::= “size” Comando
+Cobertura ::= “coverage” Comando
+DeveTestar ::= “test” Comando Id
+
 		      
 ## Referências
 
