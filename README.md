@@ -45,7 +45,7 @@ PL MobileMedia{
 ```
 
 ## BNF
-Programa ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java)  “;”  Comando “}”
+Programa ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java)  “;”  [Comando](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Command.java) “}”
 
 [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java) ::= “PL” Id CorpoPL
 
@@ -74,34 +74,23 @@ Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/ma
 
 [DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java) ::= “Product” id “(“ (id) <”,” id>* “);”
 
-Comando ::= OFOT 
+[Comando](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Command.java) ::= OFOT 
 | SOFOT 
-| OA 
-| PW 
-| TWAY 
-| AC 
-| EC 
 | Tamanho 
 | Cobertura 
 | DeveTestar
 
-OFOT ::= “ofot” id 
+[OFOT](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Ofot.java) ::= “ofot” id 
 
-SOFOT ::= “sofot” id 
+[SOFOT](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Sofot.java) ::= “sofot” id 
 
-PW ::= “pw” id 
+[TWAY](https://github.com/Thayonara/plp2021_project/blob/master/src/command/TwoWay.java) ::= “tway” id
 
-TWAY ::= “tway” id
+[Tamanho](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Size.java) ::= “size” Comando
 
-AC ::= “ac” id
+[Cobertura](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Covarage.java) ::= “coverage” Comando
 
-EC ::= “ec” id
-
-Tamanho ::= “size” Comando
-
-Cobertura ::= “coverage” Comando
-
-DeveTestar ::= “test” Comando Id
+[DeveTestar](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Test.java) ::= “test” Comando Id
 
 		      
 ## Referências
