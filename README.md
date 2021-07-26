@@ -78,12 +78,12 @@ CorpoPL ::= “{“ “}”
 
 [DeclaracaoFormula](https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/FormDeclaration.java) ::= “Formula” [Id](https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/Id.java) “=” Formula
 
-Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/UnaryFormula.java) 
+Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/UnaryFormula.java) 
 <p style="margin-left:60.0pt">
-| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/BinaryFormula.java">FormulaBinaria</a> 
+| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/BinaryFormula.java">FormulaBinaria</a> 
 </p>
 <p style="margin-left:60.0pt">		
-| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Id.java">Id</a>
+| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/Id.java">Id</a>
 </p>
 		
 [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/UnaryFormula.java) ::= [“not”](https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/NotForm.java) id 
