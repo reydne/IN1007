@@ -134,7 +134,7 @@ Comando::= OFOT
 
 [Tamanho](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Size.java) ::= “size” Comando
 
-[Cobertura](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Covarage.java) ::= “coverage” Comando
+[Cobertura](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Coverage.java) ::= “coverage” Comando
 
 [Teste](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Test.java) ::= “test” Comando Id
 
