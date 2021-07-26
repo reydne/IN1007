@@ -142,7 +142,7 @@ Comando::= OFOT
 O código .jj do parser pode ser encontrado em: [SPL1](https://github.com/Thayonara/plp2021_project/blob/master/src/parser/SPL1.jj)
 
 ### Pacotes Auxiliares
-**Exceptions:**
+**Exceptions**
 - [EmptyCompilationEnvironmentException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/EmptyCompilationEnvironmentException.java)
 - [EmptyExecutionEnvironmentException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/EmptyExecutionEnvironmentException.java)
 - [ExtendedNodeNotFoundException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/ExtendedNodeNotFoundException.java)
