@@ -57,6 +57,7 @@ CorpoPL ::= “{“ “}”
 | OPTIONAL
 | ALTERNATIVE 
 | OR)](https://github.com/Thayonara/plp2021_project/blob/master/src/types/FNTypeClass.java) “;”
+| [DeclaracaoFN ; DeclaracaoFN]( https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/FeatureNameDeclarationList.java)
 
 
 
