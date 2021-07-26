@@ -51,9 +51,11 @@ Programa ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/ma
 
 CorpoPL ::= “{“ “}”
 	      
-<p style="margin-left:36.0pt"> | “{“ <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java">DeclaracaoFN</a> </p>
-<p style="margin-left:36.0pt"> <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Formula.java">DeclaracaoFormula</a> </p>	
-<p style="margin-left:36.0pt"> <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java">DeclaracaoProduto</a> + “}” </p>	
+<p style="margin-left:36.0pt">
+	| “{“ (<a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java">DeclaracaoFN</a>
+ 	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Formula.java">DeclaracaoFormula</a>	
+	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java">DeclaracaoProduto</a> )+ “}” 
+</p>	
 
 	      
 [DeclaracaoFN](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java) ::= “FeatureName” Id [”extends” Id] “as” [(ROOT 
