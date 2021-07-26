@@ -51,7 +51,7 @@ Programa ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/ma
 
 CorpoPL ::= “{“ “}”
 	      
-<p style="margin-left:45.0pt">
+<p style="margin-left:100.0pt">
 	| “{“ (<a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java">DeclaracaoFN</a>
  	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Formula.java">DeclaracaoFormula</a>	
 	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java">DeclaracaoProduto</a> )+ “}” 
