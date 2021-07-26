@@ -76,21 +76,23 @@ Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/ma
 
 [Comando](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Command.java) ::= OFOT 
 | SOFOT 
+| AIFL 
 | Tamanho 
 | Cobertura 
-| DeveTestar
+| Teste 
+
 
 [OFOT](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Ofot.java) ::= “ofot” id 
 
 [SOFOT](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Sofot.java) ::= “sofot” id 
 
-[TWAY](https://github.com/Thayonara/plp2021_project/blob/master/src/command/TwoWay.java) ::= “tway” id
+[AIFL](https://github.com/Thayonara/plp2021_project/blob/master/src/command/TwoWay.java) ::= “aifl” id 
 
 [Tamanho](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Size.java) ::= “size” Comando
 
 [Cobertura](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Covarage.java) ::= “coverage” Comando
 
-[DeveTestar](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Test.java) ::= “test” Comando Id
+[Teste](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Test.java) ::= “test” Comando Id
 
 		      
 ## Referências
