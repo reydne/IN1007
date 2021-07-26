@@ -139,7 +139,7 @@ Comando::= OFOT
 [Teste](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Test.java) ::= “test” Comando Id
 
 ## Artefatos 
-- [Código](https://github.com/Thayonara/plp2021_project) 
+- [Código-fonte](https://github.com/Thayonara/plp2021_project) 
 - [Documentação](https://docs.google.com/document/d/1NzOm_05vPyIB5qSrcTDgCOENDtaVtf2k52ecTTcsk3w/edit?usp=sharing)
 
 ## Referências
