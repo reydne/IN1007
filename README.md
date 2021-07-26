@@ -89,7 +89,7 @@ Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/ma
 		
 [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/UnaryFormula.java) ::= [“not”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/NotForm.java) id 
 <p style="margin-left:60.0pt">	
-| [“not”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/NotForm.java) Formula
+	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/NotForm.java">“not”</a> Formula
 </p>	
 
 [FormulaBinaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/BinaryFormula.java) ::= Formula [“and”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/AndForm.java) Formula 
@@ -102,15 +102,29 @@ Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/ma
 
 
 [DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java) ::= “Product” id “(“ (id) <”,” id>* “);”
-| [DeclaracaoProduto ; DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/ProductDeclarationList.java)
+<p style="margin-left:60.0pt">
+| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/ProductDeclarationList.java">DeclaracaoProduto ; DeclaracaoProduto</a>
+</p>
 
 Comando::= OFOT 
+<p style="margin-left:60.0pt">
 | SOFOT 
+</p>
+<p style="margin-left:60.0pt">
 | AIFL 
-| [Commando ; Comando](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Composition.java)
-| Tamanho 
+</p>
+<p style="margin-left:60.0pt">
+	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/command/Composition.java">Commando ; Comando</a>
+</p>
+<p style="margin-left:60.0pt">
+| Tamanho
+</p>
+<p style="margin-left:60.0pt">
 | Cobertura 
+</p>
+<p style="margin-left:60.0pt">
 | Teste 
+</p>
 
 
 [OFOT](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Ofot.java) ::= “ofot” id 
