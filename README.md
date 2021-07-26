@@ -49,8 +49,7 @@ Programa ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/ma
 
 [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/PLDeclaration.java) ::= “PL” Id CorpoPL
 
-CorpoPL ::= “{“ “}”
-	      
+CorpoPL ::= “{“ “}”	      
 <p style="margin-left:60.0pt">
 	| “{“ (<a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java">DeclaracaoFN</a>
  	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Formula.java">DeclaracaoFormula</a>	
@@ -58,13 +57,15 @@ CorpoPL ::= “{“ “}”
 </p>	
 
 	      
-[DeclaracaoFN](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java) ::= “FeatureName” Id [”extends” Id] “as” [(ROOT 
+[DeclaracaoFN](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java) ::= “FeatureName” Id [”extends” Id] “as”
+[(ROOT 
 | MANDATORY
 | OPTIONAL
 | ALTERNATIVE 
 | OR)](https://github.com/Thayonara/plp2021_project/blob/master/src/types/FNTypeClass.java) “;”
-| [DeclaracaoFN ; DeclaracaoFN]( https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/FeatureNameDeclarationList.java)
-
+<p style="margin-left:60.0pt">
+	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/FeatureNameDeclarationList.java">DeclaracaoFN ; DeclaracaoFN</a>
+</p>
 
 
 [DeclaracaoFormula](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FormDeclaration.java) ::= “Formula” [Id](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Formula.java) “=” Formula
