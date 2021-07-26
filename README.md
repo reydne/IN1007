@@ -77,8 +77,10 @@ Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/ma
 [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/UnaryFormula.java) ::= [“not”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/NotForm.java) id | [“not”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/NotForm.java) Formula
 
 [FormulaBinaria](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/BinaryFormula.java) ::= Formula [“and”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/AndForm.java) Formula 
-| Formula [“or”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/OrForm.java) Formula
-| Formula [“implies”](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ImpliesForm.java) Formula
+<p style="margin-left:60.0pt">
+	| Formula <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/OrForm.java">“or”</a> Formula
+	| Formula <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ImpliesForm.java">“implies”</a> Formula
+</p>
 
 [DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java) ::= “Product” id “(“ (id) <”,” id>* “);”
 | [DeclaracaoProduto ; DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/ProductDeclarationList.java)
