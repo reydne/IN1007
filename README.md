@@ -141,6 +141,44 @@ Comando::= OFOT
 ### Parse
 O código .jj do parser pode ser encontrado em: [SPL1](https://github.com/Thayonara/plp2021_project/blob/master/src/parser/SPL1.jj)
 
+### Pacotes Auxiliares
+**Exceptions:**
+- [EmptyCompilationEnvironmentException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/EmptyCompilationEnvironmentException.java)
+- [EmptyExecutionEnvironmentException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/EmptyExecutionEnvironmentException.java)
+- [ExtendedNodeNotFoundException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/ExtendedNodeNotFoundException.java)
+- [ExtendsNullException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/ExtendsNullException.java)
+- [FormulaNotSatisfiedException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/FormulaNotSatisfiedException.java)
+- [MandatoryFeatureNotSelectedException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/MandatoryFeatureNotSelectedException.java)
+- [MultipleRootException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/MultipleRootException.java)
+- [MultipleSelectedAlternativesFeaturesException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/MultipleSelectedAlternativesFeaturesException.java)
+- [PreviouslyDeclaredFNException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/PreviouslyDeclaredFNException.java)
+- [PreviouslyDeclaredFormException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/PreviouslyDeclaredFormException.java)
+- [PreviouslyDeclaredIdException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/PreviouslyDeclaredIdException.java)
+- [PreviouslyDeclaredPLException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/PreviouslyDeclaredPLException.java)
+- [PreviouslyDeclaredProductException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/PreviouslyDeclaredProductException.java)
+- [UndeclaredFNException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/UndeclaredFNException.java)
+- [UndeclaredFormException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/UndeclaredFormException.java)
+- [UndeclaredIdException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/UndeclaredIdException.java)
+- [UndeclaredPLException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/UndeclaredPLException.java)
+- [UndeclaredProductException.java](https://github.com/Thayonara/plp2021_project/blob/master/src/exceptions/UndeclaredProductException.java)
+
+**Memory**
+- [CompilationContext.java](https://github.com/Thayonara/plp2021_project/blob/master/src/memory/CompilationContext.java)
+- [CompilationEnvironment.java](https://github.com/Thayonara/plp2021_project/blob/master/src/memory/CompilationEnvironment.java)
+- [Context.java](https://github.com/Thayonara/plp2021_project/blob/master/src/memory/Context.java)
+- [Environment.java](https://github.com/Thayonara/plp2021_project/blob/master/src/memory/Environment.java)
+- [ExecutionContext.java](https://github.com/Thayonara/plp2021_project/blob/master/src/memory/ExecutionContext.java)
+- [ExecutionEnvironment.java](https://github.com/Thayonara/plp2021_project/blob/master/src/memory/ExecutionEnvironment.java)
+- [SPL1Environment.java](https://github.com/Thayonara/plp2021_project/blob/master/src/memory/SPL1Environment.java)
+- [StackHandler.java](https://github.com/Thayonara/plp2021_project/blob/master/src/memory/StackHandler.java)
+
+**Types**
+- [FNTypeClass.java](https://github.com/Thayonara/plp2021_project/blob/master/src/types/FNTypeClass.java)
+- [GeneralType.java](https://github.com/Thayonara/plp2021_project/blob/master/src/types/GeneralType.java)
+- [IdTypeClass.java](https://github.com/Thayonara/plp2021_project/blob/master/src/types/IdTypeClass.java)
+- [IdTypeEnum.java](https://github.com/Thayonara/plp2021_project/blob/master/src/types/IdTypeEnum.java)
+- [Types.java](https://github.com/Thayonara/plp2021_project/blob/master/src/types/Types.java)
+
 ## Artefatos 
 - [Código-fonte](https://github.com/Thayonara/plp2021_project) 
 - [Documentação](https://docs.google.com/document/d/1NzOm_05vPyIB5qSrcTDgCOENDtaVtf2k52ecTTcsk3w/edit?usp=sharing)
