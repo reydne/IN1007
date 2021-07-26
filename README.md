@@ -64,13 +64,12 @@ CorpoPL ::= “{“ “}”
 
 	      
 [DeclaracaoFN](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java) ::= “FeatureName” Id [”extends” Id] “as”
-<p style="margin-left:60.0pt">
-	<a href="https://github.com/Thayonara/plp2021_project/blob/master/src/types/FNTypeClass.java">(ROOT 
-	| MANDATORY
-	| OPTIONAL
-	| ALTERNATIVE 
-	| OR)</a> “;”
-</p>
+[(ROOT 
+| MANDATORY
+| OPTIONAL
+| ALTERNATIVE 
+| OR)](https://github.com/Thayonara/plp2021_project/blob/master/src/types/FNTypeClass.java)“;”
+
 		
 <p style="margin-left:60.0pt">
 	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/FeatureNameDeclarationList.java">DeclaracaoFN ; DeclaracaoFN</a>
