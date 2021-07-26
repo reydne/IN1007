@@ -53,9 +53,11 @@ CorpoPL ::= “{“ “}”
 <p style="margin-left:60.0pt">
 	| “{“ (<a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/FeatureNameDeclaration.java">DeclaracaoFN</a>
 </p>
+
 <p style="margin-left:60.0pt">
  	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/Formula.java">DeclaracaoFormula</a>
 </p>
+
 <p style="margin-left:60.0pt">
 	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java">DeclaracaoProduto</a> )+ “}” 
 </p>	
@@ -67,8 +69,9 @@ CorpoPL ::= “{“ “}”
 	| MANDATORY
 	| OPTIONAL
 	| ALTERNATIVE 
-	| OR)<a> “;”
+	| OR)</a> “;”
 </p>
+		
 <p style="margin-left:60.0pt">
 	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/FeatureNameDeclarationList.java">DeclaracaoFN ; DeclaracaoFN</a>
 </p>
