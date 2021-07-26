@@ -76,7 +76,7 @@ Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/ma
 [DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/implementations/ProductDeclaration.java) ::= “Product” id “(“ (id) <”,” id>* “);”
 | [DeclaracaoProduto ; DeclaracaoProduto](https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/ProductDeclarationList.java)
 
-[Comando](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Command.java) ::= OFOT 
+Comando::= OFOT 
 | SOFOT 
 | AIFL 
 | [Commando ; Comando](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Composition.java)
