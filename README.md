@@ -45,7 +45,7 @@ PL MobileMedia{
 ```
 
 ## BNF
-[Programa](https://github.com/Thayonara/plp2021_project/blob/master/src/program/Program.java) ::= [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/PLDeclaration.java)  “;”  [Comando](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Command.java) “}”
+[Programa](https://github.com/Thayonara/plp2021_project/blob/master/src/program/Program.java) ::= "{" [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/PLDeclaration.java)  “;”  [Comando](https://github.com/Thayonara/plp2021_project/blob/master/src/command/Command.java) “}”
 
 [DeclaracaoPL](https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/PLDeclaration.java) ::= “PL” Id CorpoPL
 
