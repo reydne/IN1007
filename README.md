@@ -180,6 +180,7 @@ O código .jj do parser pode ser encontrado em: [SPL1](https://github.com/Thayon
 ## Artefatos 
 - [Código-fonte](https://github.com/Thayonara/plp2021_project) 
 - [Documentação](https://docs.google.com/document/d/1NzOm_05vPyIB5qSrcTDgCOENDtaVtf2k52ecTTcsk3w/edit?usp=sharing)
+- [Apresentação](https://docs.google.com/presentation/d/1wsdAF2hbSRt0XTy63M-TpBMFjZ9Nmdo7eVTlEnXyNUo/edit?usp=sharing)
 
 ## Referências
 
