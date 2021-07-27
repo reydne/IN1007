@@ -86,10 +86,8 @@ Formula ::= [FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/ma
 | <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/declarations/Id.java">Id</a>
 </p>
 		
-[FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/UnaryFormula.java) ::= [“not”](https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/NotForm.java) id 
-<p style="margin-left:60.0pt">	
-	| <a href="https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/NotForm.java">“not”</a> Formula
-</p>	
+[FormulaUnaria](https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/UnaryFormula.java) ::= [“not”](https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/NotForm.java) Formula 
+
 
 [FormulaBinaria](https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/BinaryFormula.java) ::= Formula [“and”](https://github.com/Thayonara/plp2021_project/blob/master/src/formulas/AndForm.java) Formula 
 <p style="margin-left:60.0pt">
